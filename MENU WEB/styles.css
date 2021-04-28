@@ -1,0 +1,105 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#background::before{
+    content: "";
+  position: absolute;
+  background-image: url('coffee strawberry red pepper wallpaper cool food wallpapers.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:172%;
+  height:116%;
+  opacity: 0.85;
+  z-index: -1;
+}
+
+
+
+
+#background{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+
+
+.para{
+margin-top: 118px;
+font-weight: bold;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'orignal surfer', cursive;
+    line-height: 50px;
+    text-shadow: 4px 4px black;
+
+}
+
+.btn{
+    font-family: 'orignal surfer', cursive;
+    font-size: 25px;
+    border-radius: 25px;
+    padding: 8px;
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 120px;
+    box-shadow: 0 0 20px black;
+}
+
+.btn:hover, .btn:active{
+    color: white;
+    background-color: black ;
+}
+
+
+#menu::before{
+    content: "";
+  position: absolute;
+  background-image: url('pexels-valeria-boltneva-1833349.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width:99%;
+  height:182%;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.items{
+    width: 285px;
+    margin-top: 10px;
+}
+
+.items input{
+width: 259px;
+height: 194px;
+border-radius: 25px;
+border: none;
+outline: none;
+}
+
+.items a{
+    text-decoration: none;
+    font-family: 'orignal surfer', cursive;
+    color: white;
+    font-size: 25px;
+    
+}
